@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <ul>
+        <li><a href="inicio.html">Inicio</a></li>
+        <li><a href="acerca.html">Acerca</a></li>
+        <li><a href="login.html">Login</a></li>
+    </ul>
+    <h1>Listas</h1>
+        <table>
+            <caption>Personas</caption>
+            <tr>
+                <th>Nombre</th>
+                <th>Edad</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>Juan</td> <td>20</td> <td>juan20@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Maria</td> <td>50</td> <td>ma@hotmail.com</td>
+            </tr>
+        </table>
+    <h2>SPAN</h2>
+    <p>	Esta es una linea con <span style="color: red;"> span en linea</span></p>
+    <br>
+    <h1 class="TitleForm">Formulario</h1>
+
+    <form class="form">
+        <fieldset>
+            <legend>Rellene los datos</legend>
+            <label for="user">Usuario: </label>
+            <input type="text" id ="user" required ="true">
+            <br>
+
+            <label for="email">Email: </label>
+            <input type="email" id="email" required = "true">
+            <br>
+
+            <label for="date">BirthDay: </label>
+            <input type="date" id = "birthday">
+            <br><br>
+            <label>Genero</label> <br>
+            <input type="radio" name="genre" id="male">
+            <label for="male">Male </label>
+            <input type="radio" name="genre" id="female">
+            <label for="female">Female </label>
+            
+            <br> <br>
+            <label>Mascota</label>
+            <br>
+            <label for="dog">Perro </label>
+            <input type="checkbox" id ="dog" name = "pet">
+            <br>
+            <label for="cat"> Gato</label>
+            <input type="checkbox" name="cat" id="pet">
+
+            <br> <br>
+            <label>Comida favorita </label>
+            <select name="food" id="food">
+                <option value="none" selected = "true">Ninguna</option>
+                <option value="potatoes">Papas</option>
+                <option value="soup">Sopa</option>
+            </select>
+            <br>
+            <input type="submit" value="Enviar">
+    </fieldset>
+    </form>
+</body>
+</html>

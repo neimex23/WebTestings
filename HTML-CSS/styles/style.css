@@ -1,0 +1,67 @@
+h1{
+    color: blue;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0px;
+    margin: 1px;
+    background-color: #1d3557  
+}
+
+li a{
+    float: left;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: whitesmoke;
+    border: 1px solid blue;
+}
+
+li a:hover {
+    background-color: blue;
+}
+
+caption {
+    background-color: green;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid blue;
+}
+
+tr {
+    
+    text-align: center;   
+}
+
+td {
+    text-align: center;
+    padding: 3px 20px;
+    border: 1px solid red;;
+}
+
+.textform {
+    padding: 0px;
+    margin: 0px;
+    color: teal;
+}
+
+.form {
+    margin-top: 5px;
+    text-align: center;
+    padding: 5px;
+    width: 300px;
+    color:cornflowerblue;
+}
+
+.TitleForm {
+    margin: 0px;
+    padding: 0px;
+}
