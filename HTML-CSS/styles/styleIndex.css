@@ -3,7 +3,7 @@ h1{
 }
 
 ul {
-    list-style-type: none;
+    text-decoration: none;
     overflow: hidden;
     padding: 0px;
     margin: 1px;

@@ -46,8 +46,16 @@ body {
     cursor: pointer;
     padding: 15px;
     margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 .contenedor .elemento input[type ="submit"]:hover {
     background-color: blue
+}
+
+.contenedor .elemento a {
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    color: white;
 }
